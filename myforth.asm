@@ -11,8 +11,8 @@ _resetStack@:
 	mov bp,RSP
 	mov di,doList@
 	
-;       mov ax , ..@
-	mov ax , ...@
+;       mov ax , 测试@
+	mov ax , 命令行@
 
 	jmp ax
 
@@ -55,4 +55,4 @@ include 'include\colon.inc'
 
 dw	_link
 
-_coreEnd@:	
+_coreEnd@:
