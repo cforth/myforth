@@ -147,17 +147,46 @@ void main()
 
 现在做一个判断和循环的模拟
 
-```
+```FORTH
 ( n1 n2 -- n )
 : max        2dup < if swap drop else drop then ;
+```
 
-void max(){ dup2(); less();    dsp--;if(*(dsp+1)){        swap(); drop();      }else{     drop();       }       }
+```C
+void max()
+{
+        dup2(); 
+        less();    
+        dsp--;
+        
+        if(*(dsp+1))
+        {        
+                swap(); 
+                drop();      
+        }
+        else
+        {     
+                drop();       
+        }       
+}
+```
 
-
-
+```FORTH
 : xx        5 for ." sdfsdf" next ;
+```
 
-void xx(){ push(5);       tor(); while(*rsp){      printf("sdfsdf");    *rsp--;}rsp--;      }
+```C
+void xx()
+{ 
+        push(5);       
+        tor(); 
+        while(*rsp)
+        {      
+                printf("sdfsdf");    
+                *rsp--;
+        }
+        rsp--;      
+}
 ```
 
 `if`和`for...next`在用完栈顶单元之后就丢掉栈顶单元。
