@@ -1,7 +1,7 @@
 Myforth
 ==================
 
-######作者:耳朵(ear)
+###### 作者:耳朵(ear)
 ------------------
 
 运行在dos16位虚拟机上的FORTH系统,由Ear编写。
@@ -10,7 +10,7 @@ Myforth
 Forth系统入门手册
 ==================
 
-######作者:耳朵(ear)
+###### 作者:耳朵(ear)
 
 1. [第0-11章(forth基础)](https://github.com/cforth/myforth/blob/master/Forth%E7%B3%BB%E7%BB%9F%E5%85%A5%E9%97%A8%E6%89%8B%E5%86%8C/forth%E7%B3%BB%E7%BB%9F%E5%85%A5%E9%97%A8%E6%89%8B%E5%86%8C0-11(forth%E5%9F%BA%E7%A1%80).md)
 2. [第12-14章(C示例)](https://github.com/cforth/myforth/blob/master/Forth%E7%B3%BB%E7%BB%9F%E5%85%A5%E9%97%A8%E6%89%8B%E5%86%8C/forth%E7%B3%BB%E7%BB%9F%E5%85%A5%E9%97%A8%E6%89%8B%E5%86%8C12-14(C%E7%A4%BA%E4%BE%8B).md)
